@@ -1,5 +1,5 @@
 //
-//  ViewController.swiftq
+//  ViewController.swift
 //  Dicee
 //
 //  Created by Bruno  on 24/05/24.
@@ -41,4 +41,3 @@ class ViewController: UIViewController {
     }
     
 }
-

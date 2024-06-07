@@ -19,15 +19,24 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBreweryBackground" translatesAutoresizingMaskIntoConstraints="NO" id="YdH-dY-7eI">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AppBreweryLogo" translatesAutoresizingMaskIntoConstraints="NO" id="jBu-To-2gR">
-                                <rect key="frame" x="95" y="402" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBreweryLogo" translatesAutoresizingMaskIntoConstraints="NO" id="jBu-To-2gR">
+                                <rect key="frame" x="101.66666666666669" y="396.66666666666669" width="190" height="59"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido a la App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjW-CU-DCW">
+                                <rect key="frame" x="105" y="485.66666666666669" width="183.33333333333337" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <constraints>
                             <constraint firstItem="YdH-dY-7eI" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="8uH-RH-EDY"/>
+                            <constraint firstItem="wjW-CU-DCW" firstAttribute="top" secondItem="jBu-To-2gR" secondAttribute="bottom" constant="30" id="JO6-Vl-MfG"/>
+                            <constraint firstItem="jBu-To-2gR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Jnr-M7-Lor"/>
+                            <constraint firstItem="jBu-To-2gR" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="W1q-Xu-lNC"/>
                             <constraint firstItem="YdH-dY-7eI" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="dCd-Pw-3YZ"/>
+                            <constraint firstItem="wjW-CU-DCW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lVI-Lu-UyC"/>
                             <constraint firstAttribute="bottom" secondItem="YdH-dY-7eI" secondAttribute="bottom" id="oEQ-0h-lBQ"/>
                             <constraint firstItem="YdH-dY-7eI" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="q9j-PF-uBO"/>
                         </constraints>
@@ -35,7 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="51.627906976744185" y="374.03433476394855"/>
+            <point key="canvasLocation" x="51.145038167938928" y="373.94366197183098"/>
         </scene>
     </scenes>
     <resources>
